@@ -1,0 +1,9 @@
+appsettings.json
+bin
+obj
+*.ini
+*.cache
+*.log
+*.tmp
+.DS_Store
+.vscode/

@@ -1,0 +1,11 @@
+From the following questions and answers, specify which class from dungeons and dragons that the answers best fall in.
+
+The classes include: Wizard, Fighter, Druid, Paladin, Rogue and Bard.
+
+Only one class can be selected and your answer can't use any other words except the class selected.
+
+The questions were:
+{{$questions}}
+
+And the answers were (in same order as the questions):
+{{$answers}}
