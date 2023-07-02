@@ -1,21 +1,5 @@
-
-
-Can you provide me with an imaginative and captivating scenario question, reminiscent of Dungeons and Dragons, that involves engaging in role-playing?
-
-The question should be multiple choice and have up to four choices and fall under the following scenario: {{ $scenarioType }}.
-The choices should be reasonable reactions to the scenario and not be similar to choices used in previous questions.
-
-The question should be detailed and story-like. Use known or made-up monsters, artifacts, or places specify them by name.
-For example, instead of calling something a powerful magical artifact, give it a made-up name and specify what makes it powerful.
-
-EXAMPLE:
-On a clear day you chance upon a strange animal, its leg trapped in a hunter's clawsnare. Judging from the bleeding it will not survive long. Do you:
-a) Draw your dagger, mercifully ending its life with a single thrust?
-b) Do not interfere in the natural evolution of events, but rather take the opportunity to learn more about a strange animal that you have never seen before?
-c) Use herbs from your pack to put it to sleep, then free it from the clawsnare and take it somewhere where it can be safe, knowing that in doing so you will probably deprive a hunter and his family of sustenance?
-
-The following questions have already been asked:
-{{$questions}}
-
-
+Come up with a creative DnD scenario involving {{$scenarioType}} using up to 300 characters and 1 paragraph to describe the scenario.
+Use 2nd person language and the scenario must end at a point where a choice needs to be made but don't specify any choices.
+Use descriptive and story-telling language and make up names for the nouns. If describing a person, give them a name and describe their personality and physical appearance.
+If describing an object, come up with an interesting name and describe what it does if it is made up.
 

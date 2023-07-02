@@ -1,0 +1,20 @@
+Given the following DnD scenario create a multiple-choice question with up to four choices.
+The question before the choices should be "Do you:".
+
++++++
+
+{{$input}}
++++++
+
+Example:
+
+Do you:
+a) Draw your dagger, mercifully ending its life with a single thrust?
+b) Do not interfere in the natural evolution of events, but rather take the opportunity to learn more about a strange animal that you have never seen before?
+c) Use herbs from your pack to put it to sleep, then free it from the clawsnare and take it somewhere where it can be safe, knowing that in doing so you will probably deprive a hunter and his family of sustenance?
+
+The following questions have already been asked:
+{{$questions}}
+
+
+

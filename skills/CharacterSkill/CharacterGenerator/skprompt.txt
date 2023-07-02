@@ -2,7 +2,7 @@
 From the provided questions and answers, determine the character class from Dungeons and Dragons
 that best aligns with the answers. Choose the most suitable class if there are multiple possibilities,
  and if there is a tie, select a class randomly.
-Your response should indicate only the selected class and why without referencing the answers specifically.
+Your response should indicate only the selected class and why it was selected
 
 
 The questions were:
