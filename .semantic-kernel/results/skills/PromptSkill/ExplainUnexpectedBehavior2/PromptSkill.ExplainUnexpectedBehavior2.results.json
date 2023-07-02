@@ -1,0 +1,116 @@
+{
+    "version": "1.0",
+    "skillName": "PromptSkill",
+    "functionName": "ExplainUnexpectedBehavior2",
+    "description": "Turn a scenario into a creative or humorous excuse to send your boss",
+    "filePath": "skills/PromptSkill/ExplainUnexpectedBehavior2/skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.5,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 300,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "unexpectedBehavior",
+                    "value": "is not generating a question related to non-player character interaction"
+                },
+                {
+                    "key": "input",
+                    "value": "Can you provide me with an imaginative and captivating scenario question, reminiscent of Dungeons and Dragons, that involves engaging in role-playing?  The question should be multiple choice and have up to four choices and fall under the following scenario: NPC interaction:  The scenario involves meeting non-player characters (NPCs) who provide information, offer quests, trade goods, or present challenges that require diplomatic or persuasive skills to navigate.. The choices should be reasonable reactions to the scenario and not be similar to choices used in previous questions.  The question should be detailed and story-like. Use known or made-up monsters, artifacts, or places specify them by name. For example, instead of calling something a powerful magical artifact, give it a made-up name and specify what makes it powerful.  EXAMPLE: On a clear day you chance upon a strange animal, its leg trapped in a hunter's clawsnare. Judging from the bleeding it will not survive long. Do you: a) Draw your dagger, mercifully ending its life with a single thrust? b) Do not interfere in the natural evolution of events, but rather take the opportunity to learn more about a strange animal that you have never seen before? c) Use herbs from your pack to put it to sleep, then free it from the clawsnare and take it somewhere where it can be safe, knowing that in doing so you will probably deprive a hunter and his family of sustenance?"
+                }
+            ],
+            "output": {
+                "prompt": "Tell me why the following prompt, is not generating a question related to non-player character interaction:\n\n+++++\n\nCan you provide me with an imaginative and captivating scenario question, reminiscent of Dungeons and Dragons, that involves engaging in role-playing?  The question should be multiple choice and have up to four choices and fall under the following scenario: NPC interaction:  The scenario involves meeting non-player characters (NPCs) who provide information, offer quests, trade goods, or present challenges that require diplomatic or persuasive skills to navigate.. The choices should be reasonable reactions to the scenario and not be similar to choices used in previous questions.  The question should be detailed and story-like. Use known or made-up monsters, artifacts, or places specify them by name. For example, instead of calling something a powerful magical artifact, give it a made-up name and specify what makes it powerful.  EXAMPLE: On a clear day you chance upon a strange animal, its leg trapped in a hunter's clawsnare. Judging from the bleeding it will not survive long. Do you: a) Draw your dagger, mercifully ending its life with a single thrust? b) Do not interfere in the natural evolution of events, but rather take the opportunity to learn more about a strange animal that you have never seen before? c) Use herbs from your pack to put it to sleep, then free it from the clawsnare and take it somewhere where it can be safe, knowing that in doing so you will probably deprive a hunter and his family of sustenance?\n+++++\n\nThen tell me how to rephrase this prompt.",
+                "durationInMilliseconds": 5846.5941,
+                "inputTokens": 323,
+                "outputTokens": 169,
+                "result": "The given prompt is not generating a question related to non-player character interaction because it focuses on a scenario involving a player's decision towards an injured animal, rather than a situation involving NPCs providing information, quests, trade, or challenges that require diplomatic or persuasive skills.\n\nTo rephrase the prompt, you can try the following:\n\n\"Imagine yourself in a Dungeons and Dragons-inspired world, where you embark on a quest filled with non-player character interactions. Create a multiple-choice scenario question with up to four choices that revolves around engaging with NPCs who offer quests, provide information, trade goods, or present challenges requiring diplomatic or persuasive skills. The question should be detailed and story-like, incorporating known or made-up monsters, artifacts, or places with specific names to enhance the imaginative experience. Ensure that the choices are reasonable reactions to the scenario and distinct from previous questions.\"",
+                "chatCompletionResult": "The given prompt is not generating a question related to non-player character interaction because it focuses on a scenario involving a player's decision towards an injured animal, rather than a situation involving NPCs providing information, quests, trade, or challenges that require diplomatic or persuasive skills.\n\nTo rephrase the prompt, you can try the following:\n\n\"Imagine yourself in a Dungeons and Dragons-inspired world, where you embark on a quest filled with non-player character interactions. Create a multiple-choice scenario question with up to four choices that revolves around engaging with NPCs who offer quests, provide information, trade goods, or present challenges requiring diplomatic or persuasive skills. The question should be detailed and story-like, incorporating known or made-up monsters, artifacts, or places with specific names to enhance the imaginative experience. Ensure that the choices are reasonable reactions to the scenario and distinct from previous questions.\""
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.5,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 300,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "unexpectedBehavior",
+                    "value": "is not generating a question related to non-player character interaction"
+                },
+                {
+                    "key": "input",
+                    "value": "Can you provide me with an imaginative and captivating scenario question, reminiscent of Dungeons and Dragons, that involves engaging in role-playing?  The question should be multiple choice and have up to four choices and fall under the following scenario: NPC interaction:  The scenario involves meeting non-player characters (NPCs) who provide information, offer quests, trade goods, or present challenges that require diplomatic or persuasive skills to navigate.. The choices should be reasonable reactions to the scenario and not be similar to choices used in previous questions.  The question should be detailed and story-like. Use known or made-up monsters, artifacts, or places specify them by name. For example, instead of calling something a powerful magical artifact, give it a made-up name and specify what makes it powerful.  EXAMPLE: On a clear day you chance upon a strange animal, its leg trapped in a hunter's clawsnare. Judging from the bleeding it will not survive long. Do you: a) Draw your dagger, mercifully ending its life with a single thrust? b) Do not interfere in the natural evolution of events, but rather take the opportunity to learn more about a strange animal that you have never seen before? c) Use herbs from your pack to put it to sleep, then free it from the clawsnare and take it somewhere where it can be safe, knowing that in doing so you will probably deprive a hunter and his family of sustenance?"
+                }
+            ],
+            "output": {
+                "prompt": "Tell me why the following prompt, in quotes, is not generating a question related to non-player character interaction:\n\n+++++\n\nCan you provide me with an imaginative and captivating scenario question, reminiscent of Dungeons and Dragons, that involves engaging in role-playing?  The question should be multiple choice and have up to four choices and fall under the following scenario: NPC interaction:  The scenario involves meeting non-player characters (NPCs) who provide information, offer quests, trade goods, or present challenges that require diplomatic or persuasive skills to navigate.. The choices should be reasonable reactions to the scenario and not be similar to choices used in previous questions.  The question should be detailed and story-like. Use known or made-up monsters, artifacts, or places specify them by name. For example, instead of calling something a powerful magical artifact, give it a made-up name and specify what makes it powerful.  EXAMPLE: On a clear day you chance upon a strange animal, its leg trapped in a hunter's clawsnare. Judging from the bleeding it will not survive long. Do you: a) Draw your dagger, mercifully ending its life with a single thrust? b) Do not interfere in the natural evolution of events, but rather take the opportunity to learn more about a strange animal that you have never seen before? c) Use herbs from your pack to put it to sleep, then free it from the clawsnare and take it somewhere where it can be safe, knowing that in doing so you will probably deprive a hunter and his family of sustenance?\n+++++",
+                "durationInMilliseconds": 3582.7383,
+                "inputTokens": 316,
+                "outputTokens": 106,
+                "result": "The prompt you provided is not generating a question related to non-player character interaction because it is asking for an imaginative and captivating scenario question that involves engaging in role-playing, but it does not specifically mention or focus on non-player character interaction. The prompt mentions meeting NPCs and the actions that can be taken in response to their presence, but it does not provide a specific scenario or describe any NPCs. To generate a question related to non-player character interaction, the prompt should provide a specific scenario involving NPCs and their interactions with the player character.",
+                "chatCompletionResult": "The prompt you provided is not generating a question related to non-player character interaction because it is asking for an imaginative and captivating scenario question that involves engaging in role-playing, but it does not specifically mention or focus on non-player character interaction. The prompt mentions meeting NPCs and the actions that can be taken in response to their presence, but it does not provide a specific scenario or describe any NPCs. To generate a question related to non-player character interaction, the prompt should provide a specific scenario involving NPCs and their interactions with the player character."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.5,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 300,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "unexpectedBehavior",
+                    "value": "is not generating a question related to non-player character interaction"
+                }
+            ],
+            "output": {
+                "prompt": "Tell me why the following prompt, in quotes, is not generating a question related to non-player character interaction:\n\n+++++\n\n\"\n+++++",
+                "durationInMilliseconds": 3718.9986,
+                "inputTokens": 27,
+                "outputTokens": 71,
+                "result": "The prompt you provided, \"+++++\", does not generate a question related to non-player character interaction because it does not contain any specific information or context related to non-player characters or their interactions. In order to generate a question about non-player character interaction, the prompt should include relevant details or a specific scenario involving non-player characters in a game or virtual environment.",
+                "chatCompletionResult": "The prompt you provided, \"+++++\", does not generate a question related to non-player character interaction because it does not contain any specific information or context related to non-player characters or their interactions. In order to generate a question about non-player character interaction, the prompt should include relevant details or a specific scenario involving non-player characters in a game or virtual environment."
+            }
+        }
+    ]
+}

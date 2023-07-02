@@ -1,8 +1,9 @@
-From the following questions and answers, specify which class from dungeons and dragons that the answers best fall in.
 
-The classes include: Wizard, Fighter, Druid, Paladin, Rogue and Bard.
+From the provided questions and answers, determine the character class from Dungeons and Dragons
+that best aligns with the answers. Choose the most suitable class if there are multiple possibilities,
+ and if there is a tie, select a class randomly.
+Your response should indicate only the selected class and why without referencing the answers specifically.
 
-Only one class can be selected and your answer can't use any other words except the class selected.
 
 The questions were:
 {{$questions}}

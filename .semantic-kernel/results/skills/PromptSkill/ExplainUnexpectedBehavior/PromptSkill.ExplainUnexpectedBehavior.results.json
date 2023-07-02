@@ -1,0 +1,141 @@
+{
+    "version": "1.0",
+    "skillName": "PromptSkill",
+    "functionName": "ExplainUnexpectedBehavior",
+    "description": "Turn a scenario into a creative or humorous excuse to send your boss",
+    "filePath": "skills/PromptSkill/ExplainUnexpectedBehavior/skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.5,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 300,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "unexpectedBehavior",
+                    "value": "is not generating a question related to non-player character interaction"
+                }
+            ],
+            "output": {
+                "prompt": "Tell me why the following prompt, in quotes, is not generating a question related to non-player character interaction:\n\n+++++\n\n\"\n+++++",
+                "durationInMilliseconds": 2419.4726,
+                "inputTokens": 27,
+                "outputTokens": 58,
+                "result": "The prompt you provided does not generate a question related to non-player character interaction because it consists of only symbols and does not contain any meaningful words or context. In order to generate a question related to non-player character interaction, the prompt should include relevant information or a specific query about the topic.",
+                "chatCompletionResult": "The prompt you provided does not generate a question related to non-player character interaction because it consists of only symbols and does not contain any meaningful words or context. In order to generate a question related to non-player character interaction, the prompt should include relevant information or a specific query about the topic."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.5,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 300,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "unexpectedBehavior",
+                    "value": "isn't not generating a question related to non-player character interaction"
+                }
+            ],
+            "output": {
+                "prompt": "Tell me why the following prompt, in quotes, isn't isn't not generating a question related to non-player character interaction:\n\n\"\"",
+                "durationInMilliseconds": 3013.1313,
+                "inputTokens": 26,
+                "outputTokens": 64,
+                "result": "The prompt you provided, in quotes, does not contain any specific information or question related to non-player character interaction. It appears to be an incomplete or empty prompt. In order to generate a question related to non-player character interaction, you would need to provide more context or specific information about the topic you are interested in.",
+                "chatCompletionResult": "The prompt you provided, in quotes, does not contain any specific information or question related to non-player character interaction. It appears to be an incomplete or empty prompt. In order to generate a question related to non-player character interaction, you would need to provide more context or specific information about the topic you are interested in."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.5,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 300,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "unexpectedBehavior",
+                    "value": "not generating a question related to non-player character interaction"
+                }
+            ],
+            "output": {
+                "prompt": "Tell me why the following prompt, in quotes, isn't not generating a question related to non-player character interaction:\n\n\"\"",
+                "durationInMilliseconds": 2310.7894,
+                "inputTokens": 24,
+                "outputTokens": 59,
+                "result": "The prompt you provided, in quotes, does not contain any text. Therefore, it is not generating any question or statement related to non-player character interaction. If you provide a specific prompt or question, I can help you with information related to non-player character interaction in video games or other contexts.",
+                "chatCompletionResult": "The prompt you provided, in quotes, does not contain any text. Therefore, it is not generating any question or statement related to non-player character interaction. If you provide a specific prompt or question, I can help you with information related to non-player character interaction in video games or other contexts."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.5,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 300,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "unexpectedBehavior",
+                    "value": "Can you provide me with an imaginative and captivating scenario question, reminiscent of Dungeons and Dragons, that involves engaging in role-playing?  The question should be multiple choice and have up to four choices and fall under the following scenario: NPC interaction:  The scenario involves meeting non-player characters (NPCs) who provide information, offer quests, trade goods, or present challenges that require diplomatic or persuasive skills to navigate.. The choices should be reasonable reactions to the scenario and not be similar to choices used in previous questions.  The question should be detailed and story-like. Use known or made-up monsters, artifacts, or places specify them by name. For example, instead of calling something a powerful magical artifact, give it a made-up name and specify what makes it powerful.  EXAMPLE: On a clear day you chance upon a strange animal, its leg trapped in a hunter's clawsnare. Judging from the bleeding it will not survive long. Do you: a) Draw your dagger, mercifully ending its life with a single thrust? b) Do not interfere in the natural evolution of events, but rather take the opportunity to learn more about a strange animal that you have never seen before? c) Use herbs from your pack to put it to sleep, then free it from the clawsnare and take it somewhere where it can be safe, knowing that in doing so you will probably deprive a hunter and his family of sustenance?"
+                }
+            ],
+            "output": {
+                "prompt": "Tell me why the following prompt, in quotes, isn't Can you provide me with an imaginative and captivating scenario question, reminiscent of Dungeons and Dragons, that involves engaging in role-playing?  The question should be multiple choice and have up to four choices and fall under the following scenario: NPC interaction:  The scenario involves meeting non-player characters (NPCs) who provide information, offer quests, trade goods, or present challenges that require diplomatic or persuasive skills to navigate.. The choices should be reasonable reactions to the scenario and not be similar to choices used in previous questions.  The question should be detailed and story-like. Use known or made-up monsters, artifacts, or places specify them by name. For example, instead of calling something a powerful magical artifact, give it a made-up name and specify what makes it powerful.  EXAMPLE: On a clear day you chance upon a strange animal, its leg trapped in a hunter's clawsnare. Judging from the bleeding it will not survive long. Do you: a) Draw your dagger, mercifully ending its life with a single thrust? b) Do not interfere in the natural evolution of events, but rather take the opportunity to learn more about a strange animal that you have never seen before? c) Use herbs from your pack to put it to sleep, then free it from the clawsnare and take it somewhere where it can be safe, knowing that in doing so you will probably deprive a hunter and his family of sustenance?:\n\n\"${prompt}\"",
+                "durationInMilliseconds": 2870.1756,
+                "inputTokens": 306,
+                "outputTokens": 63,
+                "result": "The provided prompt is not suitable because it is too long and complex for a single response. As an AI assistant, I am limited in the length of my responses and cannot provide a detailed and story-like scenario with multiple choices. However, I can help you create a shorter and more concise scenario if you would like.",
+                "chatCompletionResult": "The provided prompt is not suitable because it is too long and complex for a single response. As an AI assistant, I am limited in the length of my responses and cannot provide a detailed and story-like scenario with multiple choices. However, I can help you create a shorter and more concise scenario if you would like."
+            }
+        }
+    ]
+}

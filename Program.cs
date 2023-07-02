@@ -34,10 +34,22 @@ if (kernelSettings.EndpointType == EndpointTypes.TextCompletion)
     var answersKey = "answers";
     context.Set(questionsKey, "");
     context.Set(answersKey, "");
+    string[] scenarioTypes = {
+        "monster encounter: The scenario involves stumbling upon a group of hostile creatures, such as goblins, a dragon, or undead.",
+        "puzzle: The scenario involves encountering a complex puzzle or a trap-filled room that requires the answerer to solve riddles, manipulate objects, or make choices to progress or avoid danger.",
+        "NPC interaction:  The scenario involves meeting non-player characters (NPCs) who provide information, offer quests, trade goods, or present challenges that require diplomatic or persuasive skills to navigate.",
+        "Exploration and Discovery: The scenario involves entering uncharted territories, ancient ruins, or mysterious dungeons, exploring hidden chambers, uncovering forgotten lore, or finding valuable treasures.",
+        "Social Encounter: The scenario involves interacting with influential individuals, attending a grand ball, negotiating with political figures, or participating in a trial, relying on social skills, deception, or persuasion to achieve their goals.",
+        // "Wilderness Survival: The scenario involves navigate treacherous terrains, face harsh weather conditions, encounter dangerous wildlife, and must find food, water, and shelter while avoiding environmental hazards.",
+        "Moral Dilemma: The scenario involves facing a situation that tests the answerer's ethics and values, requiring them to make difficult choices with far-reaching consequences, such as saving an innocent at the cost of revealing a hidden location.",
+        // "Investigation and Mystery",
+        // "Dungeon Crawling",
+        "Epic Battle or War: The scenario involves engaging in a large-scale conflict, participating in a battle or war between factions, leading troops, and strategizing to achieve victory while facing overwhelming odds."
+    };
 
-
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < scenarioTypes.Length; i++)
     {
+        context.Set("scenarioType", scenarioTypes[i]);
         // ISKFunction[] pipeline = { characterSkill["DnD"], consoleSkill["Listen"] }
         var question = await kernel.RunAsync(context, characterSkill["DnD"]);
         Console.WriteLine(question);
